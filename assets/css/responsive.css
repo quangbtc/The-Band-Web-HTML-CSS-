@@ -1,0 +1,113 @@
+    @media (min-width:1024px) {}
+
+    /* Table */
+    @media (min-width:740px) and (max-width:1023px) {}
+        #content .text-about{
+            padding: 0px 20px;
+        }
+        .wp-contact{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    /* Mobile */
+    @media (max-width:739px) {
+        #header {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .nav-search {
+            display: none;
+        }
+
+        #header .nav {
+            display: block;
+        }
+
+        ul.nav-list {
+            display: block;
+        }
+
+        .nav-list li {
+            display: block;
+        }
+
+        .nav-list>li:first-child {
+            display: inline-block;
+        }
+
+        .mobile-menu {
+            display: block;
+        }
+
+        .nav-item-link {
+            display: block;
+        }
+
+        .extra-item-link {
+            padding: 15px 37px;
+            color: var(--white-color);
+
+        }
+
+        li.nav-list-item:last-child:hover .nav-extra {
+            display: block;
+            position: initial;
+            background-color: black;
+        }
+
+        /* content */
+
+        #content .section-content {
+            width: auto;
+            padding: 64px 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #content .list-member {
+            flex-direction: column;
+        }
+        .member-img{
+            width: 80%;
+        }
+        .section-tour .tour-info-list{
+            flex-direction: column;
+            align-items: center;
+        }
+        .tour-info-item{
+            width: 100%;
+            margin: 15px 0px;
+        }
+
+
+        .wp-contact{
+            flex-direction: column;
+            align-items: center;
+        }   
+        .contact-info{
+            width: 100%;
+        }
+        .contact-form{
+            width: 100%;
+        }
+        .contact-form-group{
+            flex-direction: column;
+        }
+        .contact-form-group input{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .btn{
+            width: 100%;
+            height: 50px;
+        }
+        .text-content{
+            bottom: 13px;
+        }
+        .modal__close{
+            flex-direction:column;
+        }
+
+    }
